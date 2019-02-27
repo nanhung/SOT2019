@@ -1,3 +1,1 @@
-If you use Windows and MacOS, be sure to install  
-- [LibreOffice](https://www.libreoffice.org) 
-- [Ubuntu font](https://design.ubuntu.com/font/)  
+The poster is edited by [LibreOffice](https://www.libreoffice.org) with [Ubuntu font](https://design.ubuntu.com/font/).  
