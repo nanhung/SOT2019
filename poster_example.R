@@ -3,7 +3,7 @@ if(!require(pksensi)) install.packages("pksensi"); library(pksensi)
 mName <- "pbtk1cpt_v2"
 compile_model(mName, application = "mcsim",　version = "6.0.1")
 parms <- c(vdist = 0.5, ke = 0.2, km = 0.5, kgutabs = 2.0)
-
+params <- names(parms)
 
 # Generate parameter matrix
 LL <- 0.5 
@@ -38,7 +38,6 @@ plot(x$a[,4,"kgutabs"], ylab = "", yaxt="n", cex = cex)
 dev.off()
 
 # PK modeling (decoupling simulation)
-params <- names(parms)
 Outputs <- c("Agutlument", "Aelimination", "Acompartment", "Ccompartment", "AUC", "Ametabolized")
 times <- seq(from = 0.01, to = 24.01, by = 1)
 conditions <- c("Agutlument = 10") # Set the initial state of Agutlument = 10 
