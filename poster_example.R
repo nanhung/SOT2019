@@ -148,5 +148,5 @@ check(out, SI.cutoff = 0.05, vars = "Ametabolized")
 check(out, SI.cutoff = 0.05)
 
 #
-file.remove(c("mcsim.pbtk1cpt_v2.model.exe", "output.csv", "pbtk1cpt_v2.model.c", "setpts.out", "input.in"))
+file.remove(c("mcsim.pbtk1cpt_v2.model.exe", "simmc.out", "pbtk1cpt_v2.model.c", "setpts.out", "input.in"))
 
