@@ -2,6 +2,7 @@
 if(!require(pksensi)) install.packages("pksensi"); library(pksensi)
 
 # Set and check the GCC compiler 
+# PATH = "c:/Rtools/bin" # Use to make dll
 PATH = "c:/Rtools/mingw_32/bin"
 Sys.setenv(PATH = paste(PATH, Sys.getenv("PATH"), sep=";"))
 Sys.which("gcc")
